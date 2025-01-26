@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: raw_layer  # Tên nguồn này có thể là 'raw_layer' hoặc tên bạn đặt
+    database: db  # Tên cơ sở dữ liệu là db
+    schema: public  # Schema là 'public'
+    tables:
+      - name: customers  # Tên bảng trong schema 'public'
